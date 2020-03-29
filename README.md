@@ -1,1 +1,1 @@
-# caovid19 visualizations
+# covid19 visualizations
