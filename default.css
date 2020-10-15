@@ -318,6 +318,12 @@
 		background: #7a0109;
 	}
 
+	#total-bar-wrapper
+	{
+		overflow: hidden;
+		background: #ed4040;
+	}
+
 	#header
 	{
 		text-align: center;
@@ -397,11 +403,49 @@
 	#menu li:hover a, #menu li.active a, #menu li.active span
 	{
 		background: #FFF;
-		border-radius: 7px 7px 0px 0px;
+		border-radius: 7px 7px 7px 7px;
 		color: #000;
 	}
 	
 	#menu .current_page_item a
+	{
+	}
+
+/*********************************************************************************/
+/* Total Bar                                                                           */
+/*********************************************************************************/
+
+	#total-bar
+	{
+		height: 60px;
+	}
+	
+	#total-bar ul
+	{
+		display: inline-block;
+		padding: 0em 2em;
+		text-align: center;
+	}
+	
+	#total-bar li
+	{
+		display: inline-block;
+	}
+	
+	#total-bar li a, #second-menu li span
+	{
+		display: inline-block;
+		padding: 0em 1.5em;
+		text-decoration: none;
+		font-size: 1.5em;
+		font-weight: 600;
+		line-height: 60px;
+		outline: 0;
+		color: #000;
+	}
+	
+	
+	#total-bar .current_page_item a
 	{
 	}
 
@@ -443,7 +487,7 @@
 	#second-menu li:hover a
 	{
 		background: #FFF;
-		border-radius: 7px 7px 0px 0px;
+		border-radius: 7px 7px 7px 7px;
 		color: #000;
 	}
 	
